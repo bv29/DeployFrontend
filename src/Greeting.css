@@ -1,0 +1,16 @@
+.greeting-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+  }
+  
+  .greeting-container h1 {
+    color: #ff4500;
+  }
+  
+  .greeting-container p {
+    font-size: 1.2em;
+  }
+  

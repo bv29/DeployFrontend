@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import Greeting from './Greeting';
 
 function App() {
   const [message, setMessage] = useState('');
@@ -13,6 +14,8 @@ function App() {
   return (
     <div className="App">
       <h1>{message}</h1>
+      <Greeting/>
+
     </div>
   );
 }
