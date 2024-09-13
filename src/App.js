@@ -1,15 +1,18 @@
-import React from 'react';
-import { SpeedInsights } from '@vercel/speed-insights/react';
-
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
+  const [message, setMessage] = useState('');
+
+  useEffect(() => {
+    fetch('https://deploy-fx99.onrender.com/')
+      .then((response) => response.text())
+      .then((data) => setMessage(data));
+  }, []);
+
   return (
     <div className="App">
-      <h1>Welcome to the website</h1>
-      hello
-      <SpeedInsights />
-
+      <h1>{message}</h1>
     </div>
   );
 }
