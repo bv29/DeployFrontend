@@ -6,7 +6,7 @@ function Greeting() {
     <div className="greeting-container">
 
       <h1>Ganesh Chaturthi Wishes!</h1>
-      <p>Wishing you a joyful and prosperous Ganesh Chaturthi, dear IPL group!</p>
+      <p>Wishing you a joyful and prosperous Ganesh Chaturthi, dear friend!</p>
     </div>
   );
 }
